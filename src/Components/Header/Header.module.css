@@ -1,0 +1,55 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    border-bottom: solid rgb(217, 217, 217) 0.5px;
+    user-select: none;
+}
+
+.lista{
+    list-style: none;
+    width: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    user-select: none;
+}
+
+.links:link{
+    color: black;
+    text-decoration: none;
+}
+.links:visited{
+    color: black;
+}
+.links:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.links:active{
+    color: black;
+}
+
+.icons{
+    display: flex;
+    width: 22%;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: #F5F5F5;
+}
+
+.input{
+    background: none;
+    border: none;
+    outline: none;
+}

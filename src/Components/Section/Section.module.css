@@ -1,0 +1,55 @@
+.rediv{
+    height: 40px;
+    width: 20px;
+    background-color: #DB4444;
+    border-radius: 5px;
+}
+
+.txtsubtitle{
+    color: #DB4444;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    margin-top: 24px;
+}
+
+.container{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.divButtonCarosel{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-self: end;
+}
+
+.buttonCarosel{
+    background-color: #eaeaea;
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.buttonCarosel:hover{
+    background-color: #d2d2d2;
+}
+
+ 

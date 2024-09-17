@@ -1,0 +1,44 @@
+.header{
+    background-color: blueviolet;
+    color: white;
+}
+
+.headerPreco {
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.shop:link{
+    color: white;
+}
+.shop:visited{
+    color: white;
+}
+.shop:hover{
+    color: white;
+}
+.shop:active{
+    color: white;
+}
+
+.dropdown{
+    border: solid black;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.dropdown:focus{
+    outline: none;
+}
+
+.opcao{
+    color: white;
+    background-color: #000;
+}
